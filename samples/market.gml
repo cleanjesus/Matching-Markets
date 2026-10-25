@@ -1,0 +1,18 @@
+graph [
+  directed 0
+  node [ id 0 label "a" type "seller" price 5 ]
+  node [ id 1 label "b" type "seller" price 1 ]
+  node [ id 2 label "c" type "seller" price 0 ]
+  node [ id 3 label "x" type "buyer" ]
+  node [ id 4 label "y" type "buyer" ]
+  node [ id 5 label "z" type "buyer" ]
+  edge [ source 3 target 0 valuation 12 ]
+  edge [ source 3 target 1 valuation 4 ]
+  edge [ source 3 target 2 valuation 2 ]
+  edge [ source 4 target 0 valuation 8 ]
+  edge [ source 4 target 1 valuation 7 ]
+  edge [ source 4 target 2 valuation 6 ]
+  edge [ source 5 target 0 valuation 7 ]
+  edge [ source 5 target 1 valuation 5 ]
+  edge [ source 5 target 2 valuation 2 ]
+]
